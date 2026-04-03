@@ -66,7 +66,7 @@ SCANNING → FORWARD ALIGN → STOP → REVERSE (Phase 1) → REVERSE (Phase 2) 
 
 
 
-## 📊 Key Parameters
+#Key Parameters
 
 | Parameter         | Description             |
 | ----------------- | ----------------------- |
