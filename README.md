@@ -1,6 +1,6 @@
 # 🚗 Autonomous Parallel Parking in CARLA
 
-#Overview
+##Overview
 
 This project implements an **autonomous parallel parking system** in the CARLA Simulator using a **rule-based control approach**.
 
