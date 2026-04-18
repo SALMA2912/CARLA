@@ -11,10 +11,10 @@ Unlike learning-based methods, this approach is:
 * Interpretable
 * Real-time capable
 
-<img width="1990" height="1206" alt="Screenshot 2026-04-18 132402" src="https://github.com/user-attachments/assets/9e4bd435-7b13-46aa-a656-59afdedf697b" />
 
 
-#Key Features
+
+Key Features
 
 **Autonomous parallel parking**
 **LiDAR-based slot detection**
@@ -23,7 +23,7 @@ Unlike learning-based methods, this approach is:
 **No ROS required (pure Python implementation)**
 
 
-#System Architecture
+System Architecture
 
 The system consists of the following components:
 * **Slot Detector**
@@ -50,13 +50,13 @@ The system consists of the following components:
 SCANNING → FORWARD ALIGN → STOP → REVERSE (Phase 1) → REVERSE (Phase 2) → CENTERING → PARKED
 
 
-#Requirements
+Requirements
 * Python 3.8+
 * CARLA 0.9.15
 * NumPy
 * OpenCV
 
-#How to Run
+How to Run
 
 1. Start CARLA: CarlaUE4.exe
 2. Open Anaconda Prompt
@@ -67,7 +67,7 @@ SCANNING → FORWARD ALIGN → STOP → REVERSE (Phase 1) → REVERSE (Phase 2) 
 
 
 
-#Key Parameters
+Key Parameters
 
 | Parameter         | Description             |
 | ----------------- | ----------------------- |
@@ -78,7 +78,7 @@ SCANNING → FORWARD ALIGN → STOP → REVERSE (Phase 1) → REVERSE (Phase 2) 
 
 
 
-#Results
+Results
 
 The system successfully:
 * Detects parking slots using real-time LiDAR
@@ -86,7 +86,7 @@ The system successfully:
 * Avoids collisions using safety constraints
 
 
-#Methodology
+Methodology
 
 This project uses a **rule-based approach** combining:
 * Geometric reasoning
@@ -97,8 +97,9 @@ This avoids:
 * Long training times
 * High computational cost of deep learning
 
+<img width="1990" height="1206" alt="Screenshot 2026-04-18 132402" src="https://github.com/user-attachments/assets/9e4bd435-7b13-46aa-a656-59afdedf697b" />
 
-#Future Improvements
+Future Improvements
 
 * Improve trajectory optimization (MPC)
 * Extend to perpendicular parking
